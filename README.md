@@ -1,30 +1,54 @@
-# React + TypeScript + Vite
+# GoPass Project (Hackathon)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GoPass is a web platform developed in Argentina to combat ticket scalping and counterfeit tickets for sporting events. The platform utilizes real-time validation through unique QR codes, ensuring security and authenticity for users.
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Frontend:
+- Git
+- GitHub
+- React
+- TypeScript
+- Redux
+- TailwindCSS
 
-## Expanding the ESLint configuration
+### Backend:
+- .NET
+- Ticketmaster API
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Responsibilities
 
-- Configure the top-level `parserOptions` property like this:
+- Developed frontend components for ticket verification and resale.
+- Integrated with backend to ensure secure ticket transfers.
+- Collaborated in team and pair programming sessions to improve code quality.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Results
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Enhanced platform security and user trust.
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/IgrowkerTraining/i003-gopass-front.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd i003-gopass-front
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
